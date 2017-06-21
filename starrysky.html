@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/starrysky.js" ></script>
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js" ></script>
+		
+		<style type="text/css">
+			body{
+				margin: 0;
+				/*background-color: rgb(9,7,35);*/
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			$(function(){
+				var c = document.createElement('canvas');
+				c.width = 800
+				c.height = 600
+				document.body.appendChild(c);
+				var starry = new starrysky(c,c.width,c.height);
+				starry.init();
+			});
+		</script>
+	</body>
+</html>
