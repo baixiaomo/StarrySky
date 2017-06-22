@@ -22,7 +22,7 @@ function starrysky(c,cw,ch){
 	this.startColor = 'white'
 	this.startWidth = 1;
 	this.startHeight = 2;
-	this.startSpeed = 1;
+	this.startSpeed = .1;
 	this.startsSize = 50;
 	this.starts = [];//初始化时星星数组
 	//this.skyColor = '#8ED6FF';
